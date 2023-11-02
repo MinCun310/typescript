@@ -1,5 +1,5 @@
 // Void Type
-const sum = (a: number, b: number): number => {
+const lesson16 = (a: number, b: number): number => {
     return a + b
 }
 
@@ -9,4 +9,4 @@ const handleLogs = (message: string): void => {
 }
 handleLogs("just a message")
 
-console.log("sum: ", sum(2, 8))
+console.log("sum: ", lesson16(2, 8))
